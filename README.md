@@ -1,7 +1,7 @@
 # Borewell-prediction
 ---
 
-# 📊 DeepWell Agent – Borewell Feature Analysis
+# DeepWell Agent – Borewell Feature Analysis
 
 This project visualizes **borewell drilling features** such as **elevation, predicted depth, drilling rate, cost, and estimated time** across different locations.
 
@@ -9,7 +9,7 @@ The script uses **Matplotlib** to generate multiple bar charts for easy comparis
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 DeepWell-Agent/
@@ -20,7 +20,7 @@ DeepWell-Agent/
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 Install the required Python libraries:
 
@@ -30,7 +30,7 @@ pip install matplotlib
 
 ---
 
-## 🗂️ Input Data
+## Input Data
 
 The script expects a variable `locations_data` in the format:
 
@@ -66,7 +66,7 @@ Each dictionary should contain:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Save the script as `borewell_analysis.py`.
 2. Define your `locations_data` list as shown above.
@@ -86,7 +86,7 @@ python borewell_analysis.py
 
 ---
 
-## 📊 Visualization Output
+## Visualization Output
 
 * **Elevation Bar Chart** → Compares elevation of each location.
 * **Depth Bar Chart** → Shows predicted borewell depth in feet.
@@ -96,11 +96,11 @@ python borewell_analysis.py
 
 At the end, all graphs are presented with a project title:
 
-> **📊 DeepWell Agent – Borewell Feature Analysis Across Locations**
+> **DeepWell Agent – Borewell Feature Analysis Across Locations**
 
 ---
 
-## 🔮 Future Scope
+## Future Scope
 
 * Export charts to PDF/PNG reports automatically
 * Integrate ML-based depth prediction models
